@@ -128,6 +128,7 @@ function draw() {
     mouseY > height / 1.85 - 27.5 && mouseY < height / 1.85 + 27.5
   ) {
     stroke('#EF4343');
+    cursor('pointer');
   }
 
 
