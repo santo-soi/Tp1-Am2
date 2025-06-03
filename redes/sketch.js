@@ -29,7 +29,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight * 2);
+  createCanvas(windowWidth - 15, windowHeight * 2);
 }
 
 function draw() {
