@@ -46,24 +46,29 @@ function setup() {
   createCanvas(876, 650);
   zonas = [
     // Ojos
-    { x: width / 2.5 - 75, y: height / 3, w: 150, h: 70, url: "https://URL_OJO_IZQ.com" },
-    { x: width / 2.5 + 235, y: height / 3, w: 150, h: 70, url: "https://URL_OJO_DER.com" },
+    //izquierdo
+    { x: width / 2.5 - 75, y: height / 3, w: 150, h: 70, url: "paginas/paginaOjoIzquierdo/indexOjoIzq.html" },
+    //derecho
+    { x: width / 2.5 + 235, y: height / 3, w: 150, h: 70, url: "paginas/paginaOjoDerecho/te-sentis/index.html" },
 
     // Nariz
-    { x: width / 2, y: height / 1.85, w: 130, h: 55, url: "https://URL_NARIZ.com" },
+    { x: width / 2, y: height / 1.85, w: 130, h: 55, url: "paginas/paginaNariz/paginaNariz.html" },
 
     // Boca centro
     { x: width / 2, y: height / 1.2, w: 110, h: 50, url: "redes/index.html" },
 
     // Boca izquierda
-    { x: width / 2 - 90, y: height / 1.2 - 50, w: 140, h: 50, url: "https://URL_BOCA_IZQ_1.com" },
-    { x: width / 2 - 180, y: height / 1.322 - 50, w: 140, h: 50, url: "https://URL_BOCA_IZQ_2.com" },
-    { x: width / 2 - 240, y: height / 1.47 - 50 , w: 140, h: 50, url: "https://URL_BOCA_IZQ_3.com" },
+    //rect izquerda abajo
+    { x: width / 2 - 90, y: height / 1.2 - 50, w: 140, h: 50, url: "paginas/paginaRectIzqAbj/paginaRectIzqAbj.html" },
+    //rect izquerda medio
+    { x: width / 2 - 180, y: height / 1.322 - 50, w: 140, h: 50, url: "paginas/paginaRectIzqMed/paginaRectIzqMed.html" },
+    //rect izquerda arriba
+    { x: width / 2 - 240, y: height / 1.47 - 50 , w: 140, h: 50, url: "paginas/paginaRectIzqArriba/paginaRectIzqArriba.html" },
 
     // Boca derecha
-    { x: width / 2 + 90, y: height / 1.2 - 50, w: 140, h: 50, url: "https://URL_BOCA_DER_1.com" },
-    { x: width / 2 + 180, y: height / 1.322 - 50, w: 140, h: 50, url: "https://URL_BOCA_DER_2.com" },
-    { x: width / 2 + 240, y: height / 1.47 - 50, w: 140, h: 50, url: "https://URL_BOCA_DER_3.com" }
+    { x: width / 2 + 90, y: height / 1.2 - 50, w: 140, h: 50, url: "paginas/paginaRectDerAbj/paginaRectDerAbj.html" },
+    { x: width / 2 + 180, y: height / 1.322 - 50, w: 140, h: 50, url: "paginas/paginaRectDerMed/paginaRectDerMed.html" },
+    { x: width / 2 + 240, y: height / 1.47 - 50, w: 140, h: 50, url: "paginas/paginaRectDerArr/paginaRectDerArr.html" }
   ];
 }
 
